@@ -30,12 +30,55 @@ header h1.name a {
 
 }
 
+
+
+
+/* Navigation */
+
+nav.main ul,
+nav.main ul li {
+	margin: 0;
+}
+
+nav.main ul,
+nav.main ul li {
+	display: inline;
+}
+
+nav.main ul li a{
+	display: inline-block;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	color: #e9e0d6;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	line-height: 2.7;
+}
+
+nav.main ul li a:hover {
+	cursor: pointer;
+	background: #29aba4;
+}
+
+@media(max-width: 340px){
+	nav.main ul li{
+		font-size: 0.8em;
+	}
+
+	nav.main ul li a{
+		line-height: 0;
+	}
+}
+
 @media (min-width: 550px) {
 	.logo{
 		float: left;
 	}
 
-	.name{
+	.name,.quote{
 		float: right;
 	}
+
 }
