@@ -1,0 +1,41 @@
+/* Header */
+
+header .logo {
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top: 12%;
+}
+
+header h1.name {
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+}
+
+header h1.name a {
+	/*max-width: 100%;
+	height: auto;
+	display: block;
+	background: url(../images/logosprites.png) no-repeat 0 0;
+
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;*/
+
+	
+	text-decoration: none;
+
+}
+
+@media (min-width: 550px) {
+	.logo{
+		float: left;
+	}
+
+	.name{
+		float: right;
+	}
+}
