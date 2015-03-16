@@ -1,0 +1,16 @@
+/*
+Theme Name: Ryan France's Portfolio
+Theme URI: http://rfportfolio.digitalnerdsstudios.org
+Author: Ryan France
+Author URI: http://rfportfolio.digitalnerdsstudios.org
+Description: This theme for my portfolio is based around the skeleton framework
+Version: 1.0
+License: N/A
+License URI: N/A;
+Tags: responsive, skeleton, ryan france
+Text Domain: Ryan France
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+@import url("css/main.css");
