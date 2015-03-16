@@ -1,3 +1,4 @@
+
 /* Header */
 
 header .logo {
@@ -30,7 +31,7 @@ header h1.name a {
 
 }
 
-header .quote {
+.quote {
 	font-style: italic;
 	font-weight: 400;
 	text-align: center;
@@ -79,7 +80,7 @@ nav.main ul li a:hover {
 	background: #29aba4;
 }
 
-/* Flexslider */
+/* Flexslider - just base styling needed */
 
 /* ====================================================================================================================
  * RESETS
@@ -134,6 +135,67 @@ html[xmlns] .flexslider .slides {
   display: block;
 }
 
+/* =======================================================================================================================
+* R.F EDITED FLEXSLIDER
+* =======================================================================================================================*/
+
+.flexslider {
+	margin: 1.3em 0;
+}
+
+.flexslider figure {
+	padding: 0.5%;
+	border: 0.1rem solid #29aba4;
+	line-height: 0;
+}
+
+.flex-control-nav {
+	width: 100%;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	display: inline;
+	margin: 0 0.4em;
+}
+
+.flex-control-nav li a {
+	cursor: pointer;
+
+	display: inline-block;
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #29aba4;
+	border: 0.1rem solid #29aba4;
+
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+
+	border-radius: 1rem;
+}
+
+.flex-control-nav li a.flex-active,
+.flex-control-nav li a:hover {
+	background: #2ec0b8;
+}
+
+
+/* Section */
+
+div.section p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/* Sidebar(aside) */
+
+aside.side {
+	display: inline-block;
+	float: right;
+	margin: 2em 1.2em;
+}
+
 
 /* Footer */
 
@@ -168,9 +230,21 @@ footer .footer-logo {
 	nav.main ul li {
 		display: inline;
 	}
+
+	aside.side {
+		margin: 0;
+	}
+
+	aside.side figure {
+		padding-left: 7%;
+	}
+
+	aside.side figure figurecaption{
+		float: left;
+	}
 }
 
-@media (min-width: 550px) {
+@media (min-width: 560px) {
 	.logo{
 		float: left;
 	}

@@ -1,6 +1,7 @@
 //Configure flexslider
-$(document).ready(function() {
-	$(".flexslider").flexslider({
-		directionNav: true,
-	});
+$(window).load(function() {
+    $('.flexslider').flexslider({
+   		 directionNav: false,
+    });
 });
+
