@@ -125,7 +125,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.8;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 /*R.F Edited - Site Border Style */
@@ -141,7 +141,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   /*font-weight: 300;
   R.F Edited - font-weight*/
-  font-weight: 500; }
+  font-weight: 300;
+  font-family: "Raleway", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /*h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 R.F. Edited - line-height on all headings for baseline grid corrections*/
 
