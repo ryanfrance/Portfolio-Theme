@@ -49,7 +49,7 @@
 
 					<div class="two-thirds column">
 						<h1 class="name"><a href="">Ryan France</a></h1>
-						<h6 class="u-pull-right quote">When life gives you lemonade - make lemons&semi; life will be all like whaaaaat?!</h6>
+						<h6 class="u-pull-right quote">When life gives you lemonade - make lemons&semi; life will be all like &quot;whaaaaat?!&quot;</h6>
 					</div>
 					
 				</div>
@@ -61,23 +61,23 @@
   <div class="band navigation">
 	  <nav class="container main">
 
+		  <div class="row">
+
 		  <!--Navigation Include-->
 		  <!--<?php include_once 'includes/nav_bar.php' ?>-->
 
-		  <div class="row">
-
-		  	<div class="twelve columns">
-
-		  		<ul class="u-full-width">
-		  			<li><a href="#">Home</a></li>
-		  			<li><a href="#">Me...</a></li>
-		  			<li><a href="#">Portfolio</a></li>
-		  			<li><a href="#">Ramblings</a></li>
-		  		</ul>
-
-		  	</div>
+		  <?php // Use the WordPress function, slot it into a container with a class of twelve columns
+			  wp_nav_menu(
+				  array(
+					  'menu'				=> 'Primary Navigation',
+					  'container'			=> 'div',
+					  'container_class'		=> 'twelve columns'
+				  )
+			  );
+			?>
+		 
 		  
-		  </div>
+		  </div><!--end row-->
 
 	  </nav><!--end container-->
   </div><!--end band-->
