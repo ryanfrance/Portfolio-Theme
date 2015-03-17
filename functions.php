@@ -2,5 +2,10 @@
 	register_nav_menus(
 		array(
 			'primary' => 'Primary Navigation'
-	));	
+	));
+	
+	register_sidebar(
+		array(
+			'name'	=> 'Home Aside'
+	));
 ?>

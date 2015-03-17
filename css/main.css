@@ -194,6 +194,7 @@ aside.side {
 }
 
 aside div.buttons {
+	list-style: none;
 }
 
 

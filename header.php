@@ -75,9 +75,19 @@
 				  )
 			  );
 			?>
-		 
 		  
-		  </div><!--end row-->
+		  	<!--<div class="twelve columns">
+
+		  		<ul class="u-full-width">
+		  			<li><a href="#">Home</a></li>
+		  			<li><a href="#">Me...</a></li>
+		  			<li><a href="#">Portfolio</a></li>
+		  			<li><a href="#">Ramblings</a></li>
+		  		</ul>
+
+		  	</div>-->
+		  
+		  </div>
 
 	  </nav><!--end container-->
   </div><!--end band-->
