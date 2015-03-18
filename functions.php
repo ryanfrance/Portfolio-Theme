@@ -6,6 +6,8 @@
 	
 	register_sidebar(
 		array(
-			'name'	=> 'Home Aside'
+			'name'				=> 	'Home Aside',
+			'before_widget'		=>	'<div class="buttons %2%s">',
+			'after_widget'		=>	'</div>'
 	));
 ?>
