@@ -5,7 +5,7 @@
 
   	<div class="band">
   		<div class="container bulk">
-  			
+
   			<div class="row">
 	  			<div class="offset-by-one column ten columns">
 
@@ -49,9 +49,9 @@
 
 				<!--Buttons-->
 				<aside class="offset-by-one column four columns side">
-					<div class="sub buttons">
-					
-					<?php 
+					<div class="sub">
+
+					<?php
 						//use function to output wordpress dynamic widgets
 						dynamic_sidebar('Home Aside');
 					?>

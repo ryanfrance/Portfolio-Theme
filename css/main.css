@@ -49,11 +49,11 @@ nav.main ul li {
 	margin: 0;
 }
 
-nav.main select {
-	/* show dropdown until need to be hidden */ 
-	display: inline;
+nav.main select.responsiveMenuSelect {
+	/* show dropdown until need to be hidden */
 	width: 100%;
-	margin: 0.6em;
+	margin-top: 0.6em;
+	margin-right: 0.6em;
 }
 
 nav.main ul,
@@ -190,13 +190,34 @@ div.section p {
 /* Sidebar(aside) */
 
 aside.side {
-	display: inline-block;
+	display: inline;
 }
 
 aside div figure.buttons {
 	list-style: none;
+	display: inline-block;
 }
 
+div #cartouche {
+	display: inline-block;
+	width: 80%;
+	margin-left: 2em;
+}
+
+div #cartouche img {
+	float: left;
+}
+
+div #cartouche .name {
+	float: right;
+	margin-right: 0.8em;
+	margin-top: 0.75em;
+}
+
+div #cartouche .headline {
+	margin-top: 3.75em;
+	margin-bottom: 2em;
+}
 
 /* Footer */
 
@@ -208,7 +229,7 @@ footer .footer-logo {
 
 .footer footer a {
 	text-decoration: none;
-	
+
 }
 
 .footer footer h6 {
@@ -222,7 +243,7 @@ footer .footer-logo {
 /* Media Queries */
 
 @media(min-width: 350px){
-	
+
 	nav.main select {
 		display: none;
 	}
