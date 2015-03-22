@@ -5,6 +5,8 @@
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
+*
+* Edited By Ryan France
 */
 
 
@@ -131,7 +133,7 @@ body {
 /*R.F Edited - Site Border Style */
 * {
   box-sizing: border-box;
-}  
+}
 
 
 /* Typography
@@ -171,9 +173,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  /*color: #1EAEDB;*/
+  color: #3a9ad9 }
 a:hover {
-  color: #0FA0CE; }
+  color: #29aba4; }
 
 
 /* Buttons

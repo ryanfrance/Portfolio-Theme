@@ -15,13 +15,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,500,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-  
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,7 +51,7 @@
 						<h1 class="name"><a href="">Ryan France</a></h1>
 						<h6 class="u-pull-right quote">When life gives you lemonade - make lemons&semi; life will be all like &quot;whaaaaat?!&quot;</h6>
 					</div>
-					
+
 				</div>
 
 	  </header><!--end container-->
@@ -75,7 +75,7 @@
 				  )
 			  );
 			?>
-		  
+
 		  	<!--<div class="twelve columns">
 
 		  		<ul class="u-full-width">
@@ -86,7 +86,7 @@
 		  		</ul>
 
 		  	</div>-->
-		  
+
 		  </div>
 
 	  </nav><!--end container-->

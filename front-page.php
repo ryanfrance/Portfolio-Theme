@@ -9,7 +9,6 @@
   			<div class="row">
 	  			<div class="offset-by-one column nine columns">
 
-		  			<!--This will call the flex slider ryanfrance plugin and echo the markup into something which is familiar to below -->
 
 					<!--<div class="flexslider">
 						<ul class="slides">
@@ -44,8 +43,8 @@
 
 			<!-- text -->
 			<div class="row">
-				<div class="twelve columns section">
-				
+				<div class="seven columns section">
+
 					<?php if (have_posts()) : while (have_posts()) : the_post();
 
 						the_content();
@@ -60,7 +59,16 @@
 				</div>
 
 				<!--Buttons-->
-				
+				<aside class="offset-by-one column four columns side">
+					<div class="sub">
+
+					<?php
+						//use function to output wordpress dynamic widgets
+						dynamic_sidebar('Home Aside');
+					?>
+
+					</div>
+				</aside>
 			</div>
 
 

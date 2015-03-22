@@ -1,3 +1,6 @@
+div.bulk {
+	padding-top: 1.5em;
+}
 /* Header */
 
 header .logo {
@@ -49,11 +52,11 @@ nav.main ul li {
 	margin: 0;
 }
 
-nav.main select {
-	/* show dropdown until need to be hidden */ 
-	display: inline;
+nav.main select.responsiveMenuSelect {
+	/* show dropdown until need to be hidden */
 	width: 100%;
-	margin: 0.6em;
+	margin-top: 0.6em;
+	margin-right: 0.6em;
 }
 
 nav.main ul,
@@ -77,6 +80,30 @@ nav.main ul li a{
 nav.main ul li a:hover {
 	cursor: pointer;
 	background: #29aba4;
+}
+
+div.pagination {
+	text-align: center;
+	margin: 2em 0 2.5em 0;
+}
+
+div.pagination a,
+div.pagination span {
+	display: inline-block;
+	text-align: center;
+	padding: 0 1em;
+	text-decoration: none;
+	font-weight: 600;
+	border-bottom: 0.1em solid #29aba4;
+}
+
+div.pagination span {
+	float: left;
+	font-style: italic;
+}
+
+div.pagination span.current {
+	float: none;
 }
 
 /* Flexslider - just base styling needed */
@@ -113,8 +140,9 @@ nav.main ul li a:hover {
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 100%;
+  max-width: 100%;
   display: block;
+  height: auto;
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -142,7 +170,7 @@ html[xmlns] .flexslider .slides {
 	margin: 1.3em 0;
 }
 
-.flexslider figure {
+.flexslider ul.slides li {
 	padding: 0.5%;
 	border: 0.1rem solid #29aba4;
 	line-height: 0;
@@ -176,7 +204,7 @@ html[xmlns] .flexslider .slides {
 
 .flex-control-nav li a.flex-active,
 .flex-control-nav li a:hover {
-	background: #2ec0b8;
+	background: #3a9ad9;
 }
 
 
@@ -187,16 +215,79 @@ div.section p {
 	text-justify: inter-word;
 }
 
+/* Blog Content Block */
+
+div.content {
+	padding-top: 1.5em;
+}
+
+/* Articles */
+
+article {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+article .crumbs {
+	margin-bottom: 0.45em;
+}
+
+article img {
+	max-width: 100%;
+	height: auto;
+}
+
+article h2 {
+	line-height: 1.25em;
+}
+
+article p.meta {
+	margin-bottom: 0.5em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+hr {
+	border: none;
+	border-bottom: 0.25em dotted #29aba4;
+}
+
 /* Sidebar(aside) */
 
 aside.side {
-	display: inline-block;
+	display: inline;
 }
 
 aside div figure.buttons {
 	list-style: none;
+	display: inline-block;
 }
 
+div #cartouche {
+	display: inline-block;
+	width: 80%;
+	margin-left: 2em;
+}
+
+div #cartouche img {
+	float: left;
+}
+
+div #cartouche .name {
+	float: right;
+	margin-right: 0.8em;
+	margin-top: 0.75em;
+}
+
+div #cartouche .headline {
+	margin-top: 3.75em;
+	margin-bottom: 2em;
+}
+
+div.skype-status-button {
+	float: right;
+	margin-right: 4.4em;
+}
 
 /* Footer */
 
@@ -208,7 +299,7 @@ footer .footer-logo {
 
 .footer footer a {
 	text-decoration: none;
-	
+
 }
 
 .footer footer h6 {
@@ -222,7 +313,7 @@ footer .footer-logo {
 /* Media Queries */
 
 @media(min-width: 350px){
-	
+
 	nav.main select {
 		display: none;
 	}
@@ -252,6 +343,14 @@ footer .footer-logo {
 
 	nav.main div {
 		float: right;
+	}
+
+	article h2 a {
+		text-decoration: none;
+	}
+
+	article h2 a:hover {
+		text-decoration: underline;
 	}
 
 }
