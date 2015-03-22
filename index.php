@@ -52,6 +52,16 @@
 						endwhile;
 						endif;
 
+<<<<<<< HEAD
+=======
+				<!--Buttons-->
+				<aside class="offset-by-one column four columns side">
+					<div class="sub">
+
+					<?php
+						//use function to output wordpress dynamic widgets
+						dynamic_sidebar('Home Aside');
+>>>>>>> origin/master
 					?>
 
 					<!--<h2>Heading</h2>

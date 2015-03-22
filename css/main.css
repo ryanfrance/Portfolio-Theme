@@ -261,6 +261,7 @@ aside.side {
 aside div figure.buttons {
 	list-style: none;
 	display: inline-block;
+<<<<<<< HEAD
 }
 
 div #cartouche {
@@ -273,6 +274,20 @@ div #cartouche img {
 	float: left;
 }
 
+=======
+}
+
+div #cartouche {
+	display: inline-block;
+	width: 80%;
+	margin-left: 2em;
+}
+
+div #cartouche img {
+	float: left;
+}
+
+>>>>>>> origin/master
 div #cartouche .name {
 	float: right;
 	margin-right: 0.8em;
@@ -283,11 +298,14 @@ div #cartouche .headline {
 	margin-top: 3.75em;
 	margin-bottom: 2em;
 }
+<<<<<<< HEAD
 
 div.skype-status-button {
 	float: right;
 	margin-right: 4.4em;
 }
+=======
+>>>>>>> origin/master
 
 /* Footer */
 
